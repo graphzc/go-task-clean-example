@@ -5,7 +5,7 @@ package di
 
 import (
 	"github.com/google/wire"
-	"github.com/graphzc/go-clean-template/cmd/api/server"
+	"github.com/graphzc/go-task-clean-example/cmd/api/server"
 )
 
 func InitializeAPI() *server.EchoServer {

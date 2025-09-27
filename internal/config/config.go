@@ -7,13 +7,12 @@ import (
 )
 
 type Config struct {
-	AllowOrigins         []string `env:"ALLOW_ORIGINS" envSeparator:","`
-	LogFormat            string   `env:"LOG_FORMAT"`
-	Port                 string   `env:"PORT"`
-	CORS                 CORS     `envPrefix:"CORS_"`
-	Database             Database `envPrefix:"DATABASE_"`
-	GoogleAppCredentials string   `env:"GOOGLE_APP_CREDENTIALS"`
-	UploadSlipBucket     string   `env:"UPLOAD_SLIP_BUCKET"`
+	AllowOrigins []string `env:"ALLOW_ORIGINS" envSeparator:","`
+	LogFormat    string   `env:"LOG_FORMAT"`
+	Port         string   `env:"PORT"`
+	JWT          JWT      `envPrefix:"JWT_"`
+	CORS         CORS     `envPrefix:"CORS_"`
+	Database     Database `envPrefix:"DATABASE_"`
 }
 
 // @WireSet("Config")

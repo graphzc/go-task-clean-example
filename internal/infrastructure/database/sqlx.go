@@ -3,7 +3,7 @@ package database
 import (
 	"context"
 
-	"github.com/graphzc/go-clean-template/internal/config"
+	"github.com/graphzc/go-task-clean-example/internal/config"
 	"github.com/jmoiron/sqlx"
 	_ "github.com/lib/pq"
 	"github.com/rs/zerolog/log"

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/graphzc/go-clean-template/cmd/api/di"
+	"github.com/graphzc/go-task-clean-example/cmd/api/di"
 	"github.com/rs/zerolog/log"
 )
 

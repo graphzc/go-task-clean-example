@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/graphzc/go-clean-template/internal/domain/enums"
+	"github.com/graphzc/go-task-clean-example/internal/domain/enums"
 	"github.com/labstack/echo/v4"
 )
 

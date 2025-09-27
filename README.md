@@ -88,7 +88,7 @@ This template implements Clean Architecture (also known as Hexagonal Architectur
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/graphzc/go-clean-template.git
+   git clone https://github.com/graphzc/go-task-clean-example.git
    cd go-clean-template
    ```
 
@@ -359,7 +359,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🆘 Need Help?
 
-- Check the [Issues](https://github.com/graphzc/go-clean-template/issues) for common problems
+- Check the [Issues](https://github.com/graphzc/go-task-clean-example/issues) for common problems
 - Create a new issue if you find bugs or have feature requests
 - Review the code comments and documentation in the source files
 

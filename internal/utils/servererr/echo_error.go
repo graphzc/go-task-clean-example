@@ -1,7 +1,7 @@
 package servererr
 
 import (
-	"github.com/graphzc/go-clean-template/internal/dto"
+	"github.com/graphzc/go-task-clean-example/internal/dto"
 	"github.com/labstack/echo/v4"
 )
 

@@ -3,7 +3,7 @@ package common
 import (
 	"context"
 
-	"github.com/graphzc/go-clean-template/internal/dto"
+	"github.com/graphzc/go-task-clean-example/internal/dto"
 )
 
 type Handler interface {

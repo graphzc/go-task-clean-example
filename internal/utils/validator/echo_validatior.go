@@ -1,7 +1,7 @@
 package validator
 
 import (
-	"github.com/graphzc/go-clean-template/internal/utils/servererr"
+	"github.com/graphzc/go-task-clean-example/internal/utils/servererr"
 )
 
 func (v *Validator) Validate(payload any) error {

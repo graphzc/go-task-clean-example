@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/graphzc/go-clean-template/internal/dto"
-	"github.com/graphzc/go-clean-template/internal/utils/servererr"
+	"github.com/graphzc/go-task-clean-example/internal/dto"
+	"github.com/graphzc/go-task-clean-example/internal/utils/servererr"
 	"github.com/labstack/echo/v4"
 	"github.com/rs/zerolog/log"
 )

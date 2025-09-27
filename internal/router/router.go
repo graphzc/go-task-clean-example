@@ -1,7 +1,7 @@
 package router
 
 import (
-	"github.com/graphzc/go-clean-template/internal/handlers"
+	"github.com/graphzc/go-task-clean-example/internal/handlers"
 	"github.com/labstack/echo/v4"
 )
 

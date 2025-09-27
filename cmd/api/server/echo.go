@@ -3,11 +3,11 @@ package server
 import (
 	"fmt"
 
-	"github.com/graphzc/go-clean-template/internal/config"
-	"github.com/graphzc/go-clean-template/internal/handlers"
-	"github.com/graphzc/go-clean-template/internal/router"
-	"github.com/graphzc/go-clean-template/internal/utils/servererr"
-	"github.com/graphzc/go-clean-template/internal/utils/validator"
+	"github.com/graphzc/go-task-clean-example/internal/config"
+	"github.com/graphzc/go-task-clean-example/internal/handlers"
+	"github.com/graphzc/go-task-clean-example/internal/router"
+	"github.com/graphzc/go-task-clean-example/internal/utils/servererr"
+	"github.com/graphzc/go-task-clean-example/internal/utils/validator"
 	"github.com/labstack/echo/v4"
 	echoMiddleware "github.com/labstack/echo/v4/middleware"
 )
